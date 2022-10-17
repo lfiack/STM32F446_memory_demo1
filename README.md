@@ -4,18 +4,19 @@ The goal of this project is just to familiarise with stuff I never really play w
 * SD Card
 * Audio CODEC
 * QFN package soldering
+
 And also, more ambitious routing.
 
 ## Main components
 I inspired from the STM32F429I-DISCO board.
 * MCU is a STM32F446ZCT6 (only one available that allows SDRAM)
-	* [https://fr.farnell.com/stmicroelectronics/stm32f446zct6/mcu-32bits-cortex-m4-180mhz-lqfp/dp/2488314?ost=stm32f446zct](Farnell link)
+	* [Farnell link](https://fr.farnell.com/stmicroelectronics/stm32f446zct6/mcu-32bits-cortex-m4-180mhz-lqfp/dp/2488314?ost=stm32f446zct)
 * SDRAM is the IS42S16400J-6TLI from ISSI (the same as the DISCO board)
-	* [https://fr.farnell.com/integrated-silicon-solution-issi/is42s16400j-6tli/sdram-64mbit-166mhz-tsop-ii-54/dp/2901167?st=is42s16400j](Farnell link)
+	* [Farnell link](https://fr.farnell.com/integrated-silicon-solution-issi/is42s16400j-6tli/sdram-64mbit-166mhz-tsop-ii-54/dp/2901167?st=is42s16400j)
 * SD-Card slot is the first one I found on Farnell
-	* [https://fr.farnell.com/amphenol-icc-fci/10067847-001rlf/carte-memoire-connecteur-11voies/dp/2135990?st=embase%20carte%20sd](Farnell link)
+	* [Farnell link](https://fr.farnell.com/amphenol-icc-fci/10067847-001rlf/carte-memoire-connecteur-11voies/dp/2135990?st=embase%20carte%20sd)
 * The CODEC is the SGTL5000XNLA3 from NXP (also one of the firsts on Farnell)
-	* [https://fr.farnell.com/nxp/sgtl5000xnla3/codec-stereo-headphone-amp-20qfn/dp/2308050](Farnell link)
+	* [Farnell link](https://fr.farnell.com/nxp/sgtl5000xnla3/codec-stereo-headphone-amp-20qfn/dp/2308050)
 
 ### The SDRAM : IS42S16400J-6TLI from ISSI
 Let's start by checking the configuration in CubeIDE (and let's see if I can justify everything from the datasheet).
